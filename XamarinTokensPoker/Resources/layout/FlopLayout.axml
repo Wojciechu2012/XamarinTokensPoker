@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center"
+    android:background="#99FF66">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutwinner">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/winnertext"
+            android:gravity="center"
+            style="@style/button_text" />
+        <ListView
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/winnerlistview" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next round"
+            android:id="@+id/nextroundbutton"
+            android:layout_gravity="center_horizontal"
+            style="@style/button_text"
+            android:background="@drawable/buttonstyle"
+            android:enabled="false" />
+        <CheckBox
+            android:text="Change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/button_text"
+            android:id="@+id/chooseadapter"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

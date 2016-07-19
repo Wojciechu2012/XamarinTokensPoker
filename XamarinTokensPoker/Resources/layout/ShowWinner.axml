@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF66">
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ShowWinnerText"
+        android:layout_weight="5"
+        style="@style/button_text"
+        android:gravity="center" />
+    <Button
+        android:text="Next Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewGameButton"
+        android:layout_weight="1"
+        style="@style/button_text"
+        android:background="@drawable/buttonstyle" />
+</LinearLayout>

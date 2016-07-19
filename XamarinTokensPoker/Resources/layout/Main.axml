@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99FF66"
+    android:gravity="center">
+    <TextView
+        android:text="START NEW GAME"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/mainscreen_text"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/textView1" />
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StartGameButton"
+        android:background="@drawable/startbuttonstyle" />
+</LinearLayout>
